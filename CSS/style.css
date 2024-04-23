@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* How to remove a scrolbar */
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+img[alt="Logo"] {
+    border: 5px solid;
+    width: 200px;
+    height: 200px;
+    /* display: block; */
+}
+p{
+    background-color: purple;
+    margin: 15px;
+    color: black;
+}
+#Middle{
+    padding: 5px;
+}
+/* Simple Selectors */
+.title {
+    color: blue;
+  }
+  .content p {
+    font-weight: bold;
+  }
+  .highlight {
+    background-color: yellow;
+  }
+  /* Combinator Selectors */
+  #container > .content {
+    border: 1px solid black;
+  }
+  .title + .content {
+    margin-top: 20px;
+  }
+  /* Pseudo-class */
+  p:active {
+    color: red;
+  }
+  /* Pseudo-elements */
+  p::first-line {
+    font-style: italic;
+  }
+  /* Attribute Selectors */
+  [class^="h"] {
+    font-size: 20px;
+  }
+2:58
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* How to remove a scrolbar */
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+img[alt="Logo"] {
+    border: 5px solid;
+    width: 200px;
+    height: 200px;
+    /* display: block; */
+}
+p{
+    background-color: purple;
+    margin: 15px;
+    color: black;
+}
+#Middle{
+    padding: 5px;
+}
+/* Simple Selectors */
+.title {
+    color: blue;
+  }
+  .content p {
+    font-weight: bold;
+  }
+  .highlight {
+    background-color: yellow;
+  }
+  /* Combinator Selectors */
+  #container > .content {
+    border: 1px solid black;
+  }
+  .title + .content {
+    margin-top: 20px;
+  }
+  /* Pseudo-class */
+  p:active {
+    color: red;
+  }
+  /* Pseudo-elements */
+  p::first-line {
+    font-style: italic;
+  }
+  /* Attribute Selectors */
+  [class^="h"] {
+    font-size: 20px;
+  }
+  
